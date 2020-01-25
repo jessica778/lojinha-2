@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;;
+}
+li:nth-child(1){
+    background-color: rgb(255, 142, 66);
+}
+li:nth-child(2){
+    background-color: rgb(253, 98, 70);
+}
+li:nth-child(3){
+        background-color: rgb(255, 23, 62);
+}
+li:nth-child(4){
+    background-color: rgb(163, 93, 228);
+}
+nav{
+    background: rgb(19, 19, 19);
+}
+.logo{
+    width: 350px;
+}
+
+.feminino{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fist{
+    flex: 1 1 300px;
+   border: 10px solid salmon;
+   margin: 5px;
+}
+img{
+    max-width: 100%;
+}
